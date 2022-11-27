@@ -1,0 +1,50 @@
+1.What is SOAP ?
+
+SOAP is an It is aczonym for simple object Access Protocal XML ging information based messaging protocol for exchan- application ols the it SOAP among computers. messages in SOAP is an *MIL specification. you can transm. any way that the apple require long as both the client and the server Use the Some method
+
+2.What is the SOAP message on format used in SOAP ?
+ 
+SOAP is based•message exchanges envelopes where the apple are seen
+encloses the data to be send< Body> element 
+• The contents of these elements.
+and not a ате part of the apple defined SOAP specisication.
+
+. A SOAP < Header > contains blocks of information. relevant to how to the ismessage This helps pass information. in to be processed messages that SUAP not for the apple but for the SOAP is engine
+
+•The SOAP < Body is where the main end-to-end information conveyed in a SOAP message must be carried.
+
+3.What are the steps taken in SOAP processing model?
+SOAP sender  It is a node that transmit the message received by the receiver.
+SOAP receiver. It is a node that receives
+
+accepts the message passed by the re user message path is a node that sets the SOAPputh to make it easy for the messagesto go along the reach its destination...
+
+Initial SOAP sender is also called -originatere and it sends the messages at the starting point of the messages path and saves the setting there...
+
+sone intermediary-is a in bets the SOAP receiver and SOAP sender that Contains the SOAP message. It processes the header blocks that borward the SOAP
+
+message to the receiver. Ultimate SOAP receiver is the node where the message geds received binally is responsible for the processing This the contents used by SOAP body and the SOAP header also included in it.
+
+4.What the is use of having SOAP messages with tech ?
+You Can send and include binary JPFG images! receive SOAP messages that data Csuch as Pop) kiles or OS attachments. Attachments can be reterenied (that is, reprented explicitly message parts in the service interture) in. which arbitrary unreferenced ( in which of attachments can be included J. or and types
+MTOM - ( message Transmission optimization mach anism) A method that 13C use SHA recommends to for fransberring binary data in SUAP messages. (SOAP with attachments, also MIME for web service) ments machanism for supports plain SHA ents in profile. SOAP - A MIME HTTP. as. cuell - known as based attach- SOAPUI swake attachm accordance with the ws -I Attachments. SOAP UT
+also supports specifying bile
+to insert binary contents.
+from a names inline  bile into message body
+5.Give advantages and disadvantages of SOAP ?
+Simplicity Portability firewall friendliness. 
+Use of open standards Interperability Universal acceptance
+Disadvantages of Too much reliance SOAP HTTP
+Statelessness serialization by value and not by reference
+
+6.Explan in short Apache Axis envirnment!
+Apache axis is envirnment! implementation of the SOAP. SOAP is lightweight protocol for enhan. cing structed. information in decentralized a distributed environment on It is is an and and an open. C++ XML based protocol. Apache axis. Source it consist of Java a server implementation ols SOAP Various utilities and API'S bor generating and deploying web Capplication service
+
+7.Give the use of SOAP actor attribute ?
+SOAP actor element is specially used to add. ress the header element to a specibic endpoint. this attribute is used to annotate extension element.
+
+8.What do you mean by wire protocol & transport protocol.
+It generally rebers to communication protocol higher than the physical layer. In contract do transport protocol at the protocol level (like TCP OF UDP) the term wire protocol is used to describe Common to exchange inhurmation at the application.
+
+9.What SOAP is It is message path?
+It is message path the set of SOAP nodes through which -single some message Passes, including the SOAP initial SOAP sender zero more intermediates and and altimate on SOAP receiver.
